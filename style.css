@@ -154,6 +154,121 @@ nav ul{
   object-fit: contain;
   z-index: 2;
 }
+.logo-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 36px;
+  padding-bottom: 25px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 90px;
+  border-top: 1px solid rgba(58, 58, 58, 0.1);
+  border-bottom: 1px solid rgba(58, 58, 58, 0.1);
+}
+.logo-main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-title h3{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.product-card p{
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.product-title {
+  margin-top: 100px;
+}
+.product-card {
+  height: 476px;
+  width: 329px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0, 0, 40, 0 #000000;
+}
+.product-card img {
+  margin-top: 17px;
+  margin-left: 14px;
+  margin-right: 15px;
+}
+.product-card h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 14px;
+}
+.product-card h5 {
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 14px;
+}
+.product-card h6 {
+  font-size: 14px;
+  margin-left: 14px;
+}
+.product-card p {
+  font-size: 14px;
+  margin-left: 14px;
+  color: #787885;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 190px;
+  place-items: center;
+}
+.product-card i {
+  color: #FB8200;
+}
+.see-more {
+  margin-top: 50px;
+  margin-left: 1400px;
+}
+
+.see-more h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #E02C6D;
+}
+
+.featured {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 100px;
+  gap: 150px;
+  align-items: center;
+
+}
+
+.featured-text h3{
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+.featured-text p{
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #6C6C6C;
+  margin-top: 0px;
+}
+.btn-last {
+  background-color: var(--second-color);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.btn-last i {
+  margin-left: 8px;
+}
 @media (max-width: 768px) {
   .nav-bar {
     flex-direction: row;
@@ -182,7 +297,7 @@ nav ul{
     margin-top: 20px;
   }
 
-  /* Optional: if you want to show nav-links on menu click, you’ll need JavaScript */
+
 }
 @media (max-width: 768px) {
   nav {

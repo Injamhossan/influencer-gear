@@ -332,7 +332,10 @@ footer {
     height: 280px;
     margin-right: 0;
   }
-
+  .logo-main {
+    display: flex;
+    place-content: center;
+  }
   .product {
     grid-template-columns: 1fr;
     margin: 30px;

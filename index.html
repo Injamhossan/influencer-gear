@@ -170,5 +170,17 @@
     </div>
     </footer>
     <script src="https://kit.fontawesome.com/985b7f3a36.js" crossorigin="anonymous"></script>
+    <script>
+  // Wait until the DOM is fully loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    const prebookBtn = document.querySelector(".btn-primary");
+
+    if (prebookBtn) {
+      prebookBtn.addEventListener("click", function () {
+        alert("🎉 Thanks for showing interest! Your prebooking is being processed.");
+      });
+    }
+  });
+</script>
 </body>
 </html>
